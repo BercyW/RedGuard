@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:text="Setting"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:background="#030303"
+        android:gravity="center"
+        />
+    -->
+    <style name="TitleStyle" >
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#030303</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="ContentStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="NextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/btn_green_selector</item>
+        <item name="android:text">Next</item>
+        <item name="android:onClick">next</item>
+    </style>
+
+    <style name="BackStyle">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_alignParentBottom">true</item>
+    <item name="android:layout_alignParentLeft">true</item>
+    <item name="android:background">@drawable/btn_green_selector</item>
+    <item name="android:text">Back</item>
+    <item name="android:onClick">back</item>
+    </style>
+</resources>

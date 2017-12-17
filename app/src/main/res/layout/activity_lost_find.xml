@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="Guard" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            style="@style/ContentStyle"
+            android:layout_alignParentLeft="true"
+            android:text="Safety Number:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/tv_safetyNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="34788888888"
+            android:textSize="18dp"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/listview_divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            style="@style/ContentStyle"
+            android:layout_alignParentLeft="true"
+            android:text="Safety ON/OFF:"
+            android:textSize="18dp" />
+
+        <ImageView
+
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/lock"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/listview_divider" />
+
+
+
+        <TextView
+            style="@style/ContentStyle"
+            android:layout_alignParentLeft="true"
+            android:text="Re-Setup"
+            android:onClick="reEnter"
+            android:clickable="true"
+            android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/listview_divider" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Functions :"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="5dp"
+        android:padding="3dp"
+        android:background="#a1a1a1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+       />
+    <TextView
+        style="@style/ContentStyle"
+        android:gravity="center"
+        android:drawableLeft="@android:drawable/btn_star_big_off"
+        android:text=" GPS Tracking:#*location*#"
+
+
+        />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:gravity="center"
+        android:drawableLeft="@android:drawable/btn_star_big_off"
+        android:text=" Alarm Sound:#*alarm*#"
+        />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:gravity="center"
+        android:drawableLeft="@android:drawable/btn_star_big_off"
+        android:text=" Erase all data:#*wipedata*#"
+        />
+    <TextView
+        style="@style/ContentStyle"
+        android:gravity="center"
+        android:drawableLeft="@android:drawable/btn_star_big_off"
+        android:text=" Lock screen:#*lockscreen*#"
+        />
+
+
+
+</LinearLayout>

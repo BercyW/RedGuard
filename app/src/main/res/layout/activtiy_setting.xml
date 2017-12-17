@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bercy="http://schemas.android.com/apk/security.bercy.com.redstartsecurity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="Setting"
+        android:textSize="16dp" />
+
+    <security.bercy.com.view.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        bercy:title="Auto Update"
+        bercy:desc_on="Enable"
+        bercy:desc_off="Disable"
+        />
+
+</LinearLayout>
